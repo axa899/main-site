@@ -1,0 +1,43 @@
+// colors
+$main-color: #29606b
+$color1: #e84c3d
+$color2: #fdbd1f
+$color3: #1bbc9b
+$color4: #9b58b5
+
+// fonts
+$font-bold: 'Fjalla', sans-serif
+$font-default: 'SourceSans', sans-serif
+
+// sizes
+$width: 1170px
+
+$mobile: 480px
+$tablet: 768px
+$laptop: 992px
+$desktop: 1200px
+
+// mixins and functions
+
+@function rem($px)
+  @return $px / 16px + 0rem
+
+=media($size)
+  @media screen and ( min-width: $size)
+    @content
+
+=phone
+  @media screen and ( min-width: $mobile)
+    @content
+
+=tablet
+  @media screen and ( min-width: $tablet)
+    @content
+
+=laptop
+  @media screen and ( min-width: $laptop)
+    @content
+
+=desktop
+  @media screen and ( min-width: $desktop)
+    @content
