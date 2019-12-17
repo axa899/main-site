@@ -10344,14 +10344,20 @@ a, a:link, a:visited {
   margin: 0;
 }
 
+.elements:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: -3px;
+  right: 0;
+  height: 23px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAXCAYAAACS5bYWAAAAGXRFW…yxbwqkWy3sQzpS2C6YirwvUJk0y7hurfyGRrnduPGvAAMASmo8wzeVwfsAAAAASUVORK5CYII=) no-repeat 0 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAAAXCAYAAABOHMIhAAAAGXRFW…egbWOEVhmsVcWDwPn224iDJgla8Hd38Hd3ELQgaIeI/hZgAIPEp0vmQJdoAAAAAElFTkSuQmCC) no-repeat 50% 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAXCAYAAACFxybfAAAAGXRFW…eG7qwAq9PqovceTA3zlxlgsuswyuXsGsiSxJLEkoSY/BZgAEjRodi+uBruAAAAAElFTkSuQmCC) no-repeat 100% 0;
+}
+
 @media screen and (max-width: 1455px) {
   .main-title {
     font-size: 5rem;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .main-title {
-    font-size: 4.375rem;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -10377,6 +10383,14 @@ a, a:link, a:visited {
 
   .rectangle {
     margin: 0;
+  }
+
+  .main-title {
+    font-size: 4.375rem;
+  }
+
+  .centerer {
+    margin: auto;
   }
 
   .inner-menu-title {
@@ -10555,6 +10569,14 @@ a, a:link, a:visited {
     margin: 0;
     flex-basis: 80%;
     margin-bottom: 1.875rem;
+  }
+
+  .menu-catalog {
+    width: auto;
+  }
+
+  .inner-menu:after {
+    width: 23.125rem;
   }
 }
 @media screen and (max-width: 536px) {
