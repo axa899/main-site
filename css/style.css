@@ -11416,10 +11416,18 @@ a, a:link, a:visited {
     padding-left: 0;
   }
 
+  .rewiews-content {
+    padding-top: 3.75rem;
+  }
+
   .img-reser {
     margin: 0;
     flex-basis: 80%;
     margin-bottom: 1.875rem;
+  }
+
+  .img-reservation {
+    width: 23.1875rem;
   }
 
   .menu-catalog {
@@ -11430,6 +11438,10 @@ a, a:link, a:visited {
   .inner-menu:after {
     width: 23.125rem;
   }
+
+  .inner-menu {
+    padding-top: 0.9375rem;
+  }
 }
 @media screen and (max-width: 536px) {
   .form-part:nth-child(2) {
@@ -11438,6 +11450,11 @@ a, a:link, a:visited {
 
   .form-part:nth-child(4) {
     margin-right: 1.25rem;
+  }
+}
+@media screen and (max-width: 388px) {
+  .img-reservation {
+    width: 21.25rem;
   }
 }
 @media screen and (max-width: 884px) {
