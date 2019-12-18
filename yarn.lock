@@ -7,6 +7,16 @@ bootstrap@^4.4.1:
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.4.1.tgz#8582960eea0c5cd2bede84d8b0baf3789c3e8b01"
   integrity sha512-tbx5cHubwE6e2ZG7nqM3g/FZ5PQEDMWmMGNrCUBVRPHXTJaH7CBDdsLeu3eCh3B1tzAxTnAbtmrzvWEvT2NNEA==
 
+hamburger@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/hamburger/-/hamburger-0.1.1.tgz#07687ff1e6bad87b0354caae4e59f4169e229a27"
+  integrity sha1-B2h/8ea62HsDVMquTln0Fp4imic=
+
+hamburgers@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/hamburgers/-/hamburgers-1.1.3.tgz#eb583ede269d3a774aa5f613442b17ea13952b84"
+  integrity sha512-qpfnJwZq6ATAGJEriwuyfVNgT++GG+o+3bBfPYF7F3WY452cYKbaYGUuqwhp+3kHLI6CL4VIBfj8bfbp90Lp1A==
+
 normalize.css@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"

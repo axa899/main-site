@@ -11331,6 +11331,10 @@ a, a:link, a:visited {
   }
 }
 @media screen and (max-width: 992px) {
+  .script-snow {
+    display: none;
+  }
+
   .main-title {
     font-size: 3.75rem;
   }
@@ -11420,6 +11424,7 @@ a, a:link, a:visited {
 
   .menu-catalog {
     width: auto;
+    margin-left: 1.25rem;
   }
 
   .inner-menu:after {
