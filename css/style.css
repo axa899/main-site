@@ -11412,6 +11412,10 @@ a, a:link, a:visited {
     margin-top: 1.875rem;
   }
 
+  .abount-me {
+    padding: 0 3rem;
+  }
+
   .img-abount {
     padding-left: 0;
   }
