@@ -3,10 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>LAMBDA</title>
+	<link rel="icon" type="image/png" href="img/Logo.png">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/button.css">
+	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -29,7 +31,6 @@
 							</nav>
 						</div>
 							<div class="menu col">
-								<div class="inner-menu">
 									<ul class="ul">		
 										<li class="link"><a href="#">Home</a></li>
 										<li class="link"><a href="#">About</a></li>
@@ -39,10 +40,14 @@
 										<li class="link"><a href="#">Reservations</a></li>
 									</ul>
 									<div class="icon">
-															<i class="fa fa-twitter"></i>
-														</div>
+										<i class="fa fa-twitter icon-color" aria-hidden="true"></i>
+										<i class="fa fa-youtube
+										icon-color" aria-hidden="true"></i>
+										<i class="fa fa-facebook
+										icon-color" aria-hidden="true"></i>
+												</div>
 								</div>
-								</div>
+								
 				
 							</nav>
 						
@@ -358,12 +363,31 @@
 								
 								<h1 class="title-footer">Abount Us</h1>
 								<img src="img/decor.png" alt="">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda .</p>
+								<p>Mon-Thu:7:00am-8:00pm ...... Fri-Sun:7:00am-10:00pm</p>
+								<div class="icon">
+									<a href="https://www.americanexpress.com/"><i class="fa fa-cc-amex" aria-hidden="true"></i></a>
+										
+
+									<a href="https://www.paypal.com/ru/home"><i class="fa fa-cc-paypal ml-2" aria-hidden="true">
+										</i></a>
+										<a href="https://www.visa.com.ru/">
+											<i class="fa fa-cc-visa ml-2" aria-hidden="true"></i>
+										</a>
+										<a href="https://www.discovery.com/"><i class="fa fa-cc-discover ml-2" aria-hidden="true"></i></a>
+										
+												</div>
 							</div>
 							<div class="content-footer">
 							<h1 class="title-footer">Abount Us</h1>
 								<img src="img/decor.png" alt="">
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
+								<div class="icon">
+								<a href="https://www.facebook.com/"><i class="fa fa-facebook ml-2" aria-hidden="true"></i></a>
+									<a href="https://www.youtube.com/"><i class="fa fa-youtube ml-2" aria-hidden="true"></i></a>
+										<a href="https://twitter.com/"><i class="fa fa-twitter ml-2" aria-hidden="true"></i>
+										</a>
+											
+												</div>
 							</div>
 						</div>
 					</div>
@@ -375,13 +399,20 @@
 		
 	<!-- <script src="js/index.js" class="script-snow"></script> -->
 	<script>
-  // Look for .hamburger
-  var hamburger = document.querySelector(".hamburger");
-  // On click
+var hamburger = document.querySelector(".hamburger");
+  var menu = document.querySelector(".menu");
+    var close = document.querySelector(".menu");
+
+
   hamburger.addEventListener("click", function() {
-    // Toggle class "is-active"
     hamburger.classList.toggle("is-active");
-    // Do something else, like open/close menu
+    menu.classList.add("is-active");
+  });
+
+  close.addEventListener("click", function() {
+			hamburger.classList.toggle("is-active");
+			menu.classList.remove("is-active");
+
   });
 </script>
 </body>

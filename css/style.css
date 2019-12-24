@@ -10855,9 +10855,9 @@ a, a:link, a:visited {
   display: none;
 }
 
-.icon {
-  height: 20px;
-  width: 20px;
+.icon-color {
+  color: #dab33e;
+  margin-left: 10px;
 }
 
 .bg-abount {
@@ -11347,35 +11347,40 @@ a, a:link, a:visited {
     padding: 0;
   }
 
-  .hamburgers {
+  .header {
     position: relative;
   }
 
   .menu {
     display: flex;
     z-index: 12;
-    position: fixed;
+    position: absolute;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-  }
-
-  .inner-menu {
     align-items: center;
-    display: flex;
-    justify-content: center;
     background: #000;
+    top: -300%;
+    transition: 0.4s;
   }
 
   .ul {
     padding: 0;
     margin: 0;
-    padding: 70px 40px 40px 70px;
     flex-direction: column;
+    padding: 40px 0 0 0;
+  }
+
+  .icon {
+    padding-bottom: 3.125rem;
   }
 
   .link {
     margin: 0;
+    text-transform: uppercase;
+  }
+
+  .menu.is-active {
+    top: 0;
   }
 
   .abount-me {
