@@ -10734,6 +10734,10 @@ body, html {
   padding: 0;
 }
 
+.header {
+  position: relative;
+}
+
 .col {
   padding: 0;
 }
@@ -11153,6 +11157,7 @@ a, a:link, a:visited {
 }
 
 .button {
+  position: relative;
   margin: auto;
   margin-top: 2.5rem;
 }
